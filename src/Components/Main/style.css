@@ -1,0 +1,30 @@
+.profile-img-full {
+  float: left;
+  width: 350px;
+  padding-right: 10px;
+}
+
+.profile-img-mobile {
+  width: 250px;
+  border-radius: 50%;
+  display: none;
+}
+.push {
+  height: 50px;
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #002244;
+  border-color: #002244;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background-color: #fa4616;
+  border-color: #fa4616;
+}
+
+.img-screenshot {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}

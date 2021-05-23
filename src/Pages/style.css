@@ -1,0 +1,61 @@
+/* Custom Navbar Styles */
+
+/* Main Section Styles */
+
+.profile-img-full {
+  float: left;
+  width: 300px;
+  padding-right: 10px;
+}
+
+.profile-img-mobile {
+  width: 250px;
+  border-radius: 50%;
+  display: none;
+}
+.push {
+  height: 50px;
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #002244;
+  border-color: #002244;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background-color: #fa4616;
+  border-color: #fa4616;
+}
+
+.img-screenshot {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Mobile only Styles */
+
+@media only screen and (max-width: 768px) {
+  .collapse-list {
+    display: none;
+  }
+
+  .profile-img-full {
+    display: none;
+  }
+  .profile-img-mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px;
+  }
+
+  .profile-text {
+    text-align: justify;
+  }
+
+  .btn-custom {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

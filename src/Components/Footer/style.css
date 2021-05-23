@@ -1,0 +1,17 @@
+#footer-text {
+  font-size: 2em;
+  color: #002244;
+}
+
+.footer-link,
+.footer-link:visited {
+  color: #002244;
+}
+
+.footer-link:hover {
+  color: #fa4616;
+}
+
+.footer-border {
+  border-top: 2px solid #002244;
+}
