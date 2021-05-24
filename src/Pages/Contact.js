@@ -26,7 +26,8 @@ export default function Contact() {
       )
       .then((result) => {
         alert("Your message has been sent to Brice");
-        window.location = "/";
+        window.location =
+          "https://bahuisken.github.io/React-Portfolio/#/portfolio";
       });
   }
   return (
