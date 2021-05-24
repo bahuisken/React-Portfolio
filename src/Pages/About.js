@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import profImgD from "../Images/bah-profile-image.jpg";
 
 function About() {
   return (
@@ -14,12 +15,12 @@ function About() {
               </h2>
               <hr className="main-hr" />
               <img
-                src="React-Portfolio/assets/images/bah-profile-image.jpg"
+                src={profImgD}
                 className="img-fluid profile-img-full"
                 alt="Brice Huisken"
               />
               <img
-                src="React-Portfolio/assets/images/bah-profile-image.jpg"
+                src={profImgD}
                 className="img-fluid profile-img-mobile"
                 alt="Brice Huisken"
               />

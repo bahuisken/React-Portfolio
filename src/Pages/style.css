@@ -1,10 +1,67 @@
 /* Custom Navbar Styles */
+.navbar-custom {
+  background-color: #002244;
+}
+
+.bg-custom {
+  background-color: #002244 !important;
+}
+
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+  padding: 0px;
+}
+.contact-holder {
+  padding: 0px;
+  margin: 0px;
+}
+.contact-info {
+  font-size: 1rem;
+  color: #ffffff;
+  padding: 0px;
+}
+
+.contact-info-link {
+  color: #ffffff;
+}
+
+.contact-info-link:hover {
+  color: #ffffff;
+}
+
+.contact-info-link:visited {
+  color: #ffffff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #ffffff;
+  padding: 1rem 1rem;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #002244;
+  border-bottom: 2px solid #002244;
+  background-color: #fa4616; /* add background-color to active links */
+}
+.navbar-custom {
+  background-color: #fa4616;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,70,22)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #ffffff;
+}
 
 /* Main Section Styles */
 
 .profile-img-full {
   float: left;
-  width: 300px;
+  width: 350px;
   padding-right: 10px;
 }
 
@@ -18,19 +75,38 @@
 }
 
 .btn-custom {
-  color: #fff;
-  background-color: #002244;
-  border-color: #002244;
+  color: #fff !important;
+  background-color: #002244 !important;
+  border-color: #002244 !important;
 }
 
 .btn-custom:hover {
-  color: #fff;
-  background-color: #fa4616;
-  border-color: #fa4616;
+  color: #fff !important;
+  background-color: #fa4616 !important;
+  border-color: #fa4616 !important;
 }
 
 .img-screenshot {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+/* Footer Styles */
+
+#footer-text {
+  font-size: 2em;
+  color: #002244;
+}
+
+.footer-link,
+.footer-link:visited {
+  color: #002244;
+}
+
+.footer-link:hover {
+  color: #fa4616;
+}
+
+.footer-border {
+  border-top: 2px solid #002244;
 }
 
 /* Mobile only Styles */

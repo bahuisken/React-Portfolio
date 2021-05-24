@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { NavLink } from "react-router-dom";
+import resume from "./Brice_Huisken_Resume_2021.pdf";
 
 function Nav() {
   return (
@@ -77,8 +78,9 @@ function Nav() {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="React-Portfolio/assets/images/Brice_Huisken_Resume_2021.pdf"
+              href={resume}
               target="_blank"
+              rel="noreferrer"
             >
               Resume
             </a>

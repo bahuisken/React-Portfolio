@@ -1,0 +1,112 @@
+[
+    {
+    "id": 1,
+    "name": "Haggle",
+    "image": "/assets/images/haggle_desktop.png",
+    "description": "This application allows users to trade goods and services for other goods and services on a cashless/currency-less platform.",
+    "tech": "MVC Framework",
+    "respository": "https://github.com/domrafiti/ProjectTwoHaggle",
+    "deployed_link": "https://haggle-proj.herokuapp.com/",
+    "grade": "A+"
+  },
+  {
+    "id": 2,
+    "name": "Earworm",
+    "image": "/assets/images/earworm_desktop.png",
+    "description": "Integrates Spotify, Discogs, and Genius to create a streamlined platform for searching songs by their lyrics or name; or albums and artist by name.",
+    "tech": "HTML5, Bulma, JavaScript, REST APIs",
+    "respository": "https://github.com/bahuisken/earwom",
+    "deployed_link": "https://bahuisken.github.io/earwom/",
+    "grade": "A+"
+  },
+  {
+    "id": 3,
+    "name": "Note Taker",
+    "image": "/assets/images/note_taker.png",
+    "description": "An application that can be used to write and save notes. This application uses an Express.js back end and saves and retrieve notes data from a JSON file.",
+    "tech": "HTML5, JavaScript, CSS, Node.js, Express",
+    "respository": "https://github.com/bahuisken/Note-Taker",
+    "deployed_link": "https://stark-journey-29567.herokuapp.com/",
+    "grade": "A+"
+  },
+  {
+    "id": 4,
+    "name": "Tech Blog",
+    "image": "/assets/images/tech-blog-mvc-homework-demo.gif",
+    "description": "A CMS-style tech blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
+    "tech": "MVC Framework",
+    "respository": "https://github.com/bahuisken/Tech-Blog",
+    "deployed_link": "https://tech-blog-bah.herokuapp.com/",
+    "grade": "A+"
+  },
+  {
+    "id": 5,
+    "name": "Employee Tracker",
+    "image": "/assets/images/employee_tracker.jpg",
+    "description": "This application allows a user to view and manage the departments, roles, and employees in a company, using node, inquirer, and MySQL.",
+    "tech": "Node.js, Inquirer, MySQL",
+    "respository": "https://github.com/bahuisken/Employee-Tracker",
+    "deployed_link": "",
+    "grade": "A+"
+  },
+  {
+    "id": 6,
+    "name": "Weather Dashboard",
+    "image": "/assets/images/weather-dashboard-desktop.png",
+    "description": "Weather App that allows a user to search by city for current weather forecast, and 5-day forecast. The last searched city is stored for the user.",
+    "tech": "HTML 5, Bootstrap, jQuery, REST APIs",
+    "respository": "https://github.com/bahuisken/Weather-Dashboard/",
+    "deployed_link": "https://bahuisken.github.io/Weather-Dashboard/",
+    "grade": "A+"
+  },
+  {
+    "id": 7,
+    "name": "Work Day Scheduler",
+    "image": "/assets/images/work-day-scheduler-desktop-screenshot.png",
+    "description": "A simple calendar application that allows a user to save events for their work day. The Luxon API was used to access dates and times to power this app.",
+    "tech": "HTML 5, Bootstrap, jQuery, REST APIs",
+    "respository": "https://github.com/bahuisken/Work-Day-Scheduler/",
+    "deployed_link": "https://bahuisken.github.io/Work-Day-Scheduler/",
+    "grade": "A+"
+  },
+  {
+    "id": 8,
+    "name": "Code Quiz",
+    "image": "/assets/images/code-quiz-desktop-screenshot.png",
+    "description": "A timed coding quiz with multiple-choice questions on JavaScript. When a user answers incorrectly, time is subtracted. High Scores are stored in Local Storage",
+    "tech": "HTML5, CSS, JavaScript",
+    "respository": "https://github.com/bahuisken/Code-Quiz",
+    "deployed_link": "https://bahuisken.github.io/Code-Quiz/",
+    "grade": "A+"
+  },
+  {
+    "id": 9,
+    "name": "Password Generator",
+    "image": "/assets/images/pwd_generator_screenshot.png",
+    "description": "An application that enables users to generate random passwords based on criteria that they’ve selected from a series of questions they are presented.",
+    "tech": "HTML5, CSS, JavaScript",
+    "respository": "https://github.com/bahuisken/Password-Generator/",
+    "deployed_link": "https://bahuisken.github.io/Password-Generator/",
+    "grade": "A+"
+  },
+  {
+    "id": 10,
+    "name": "README Generator",
+    "image": "/assets/images/readme_gen.JPG",
+    "description": "A Node.js command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.",
+    "tech": "Node.js, JavaScipt",
+    "respository": "https://github.com/bahuisken/Readme-Generator",
+    "deployed_link": "",
+    "grade": "A+"
+  },
+  {
+    "id": 11,
+    "name": "IAS Training Website",
+    "image": "/assets/images/ias-training.jpg",
+    "description": "Freelance web design project. Built several years before Bootcamp. IAS Training offers Retail Sales & Management Training, and Consulting.",
+    "tech": "HTML, CSS, JavaScipt, ASP",
+    "respository": "",
+    "deployed_link": "https://www.iastraining.com/",
+    "grade": "N/A"
+  }
+]
