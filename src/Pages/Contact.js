@@ -1,8 +1,34 @@
 import React from "react";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import emailjs from "emailjs-com";
+import { init } from "emailjs-com";
+init("user_pT0VJNDPk3c8FTrLmzUNk");
 
-function Contact() {
+export default function Contact() {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_7ogkbqe",
+        "template_37gnosq",
+        e.target,
+        "user_pT0VJNDPk3c8FTrLmzUNk"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      )
+      .then((result) => {
+        alert("Your message has been sent to Brice");
+        window.location = "/";
+      });
+  }
   return (
     <section className="container">
       <div className="row">
@@ -14,13 +40,18 @@ function Contact() {
               </h2>
               <hr className="main-hr" />
 
-              <form>
+              <form
+                className="contact-form"
+                onSubmit={sendEmail}
+                autocomplete="off"
+              >
                 <div className="row">
                   <div className="col-sm-12 col-md-6 mb-3 mb-sm-3">
                     <input
                       type="text"
                       className="form-control"
                       id="first-name"
+                      name="first-name"
                       placeholder="First Name"
                     />
                   </div>
@@ -29,6 +60,7 @@ function Contact() {
                       type="text"
                       className="form-control"
                       id="last-name"
+                      name="last-name"
                       placeholder="Last Name"
                     />
                   </div>
@@ -39,11 +71,23 @@ function Contact() {
                       <label htmlFor="contact-source">
                         How did you find me?
                       </label>
-                      <select className="form-control" id="contact-source">
-                        <option value="linkedIn">linkedIn</option>
-                        <option value="GitHub">GitHub</option>
-                        <option value="Search">Search</option>
-                        <option value="BusinessCard">Business Card</option>
+                      <select
+                        name="source"
+                        className="form-control"
+                        id="contact-source"
+                      >
+                        <option name="source" value="linkedIn">
+                          linkedIn
+                        </option>
+                        <option name="source" value="GitHub">
+                          GitHub
+                        </option>
+                        <option name="source" value="Search">
+                          Search
+                        </option>
+                        <option name="source" value="BusinessCard">
+                          Business Card
+                        </option>
                       </select>
                     </div>
                   </div>
@@ -57,6 +101,7 @@ function Contact() {
                         className="form-control"
                         id="email-address"
                         placeholder="name@example.com"
+                        name="email"
                       />
                     </div>
                   </div>
@@ -71,6 +116,7 @@ function Contact() {
                         className="form-control"
                         id="custom-message"
                         rows="3"
+                        name="message"
                       ></textarea>
                     </div>
                   </div>
@@ -90,4 +136,3 @@ function Contact() {
     </section>
   );
 }
-export default Contact;
